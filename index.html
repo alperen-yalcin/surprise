@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Özel Bir Sürpriz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Bu sürpriz kime ait? 💖</h1>
+
+  <input type="text" id="nameInput" placeholder="İsmini yaz">
+  <button onclick="kontrolEt()">Devam Et</button>
+
+  <p id="mesaj"></p>
+</div>
+
+<script>
+function kontrolEt() {
+  const isim = document.getElementById("nameInput").value.toLowerCase();
+  const mesaj = document.getElementById("mesaj");
+
+  if (isim === "leyla") {
+    mesaj.innerHTML = "💖 Leyla 💖<br>Seni her gün yeniden seviyorum.<br>Bu site sadece sana ait.";
+    mesaj.className = "dogru";
+  } else {
+    mesaj.innerHTML = "❌ Bu sürpriz sana ait değil 🙂";
+    mesaj.className = "yanlis";
+  }
+}
+</script>
+
+</body>
+</html>

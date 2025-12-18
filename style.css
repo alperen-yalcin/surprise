@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .dogru {
+    margin-top: 20px;
+    color: #ff4d6d;
+    font-size: 18px;
+  }
+  
+  .yanlis {
+    margin-top: 20px;
+    color: gray;
+  }
+  
