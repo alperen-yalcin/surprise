@@ -21,7 +21,7 @@ function kontrolEt() {
   const isim = document.getElementById("nameInput").value.toLowerCase();
   const mesaj = document.getElementById("mesaj");
 
-  if (isim === "sümeyra" && isim === "sümeyra eroglu") {
+  if (isim === "sümeyra" || isim === "sümeyra eroglu") {
     mesaj.innerHTML = "💖 Hayatimin anlami 💖<br>Seni her gün yeniden seviyorum.<br>Bu site sadece sana ait.";
     mesaj.className = "dogru";
   } else {
